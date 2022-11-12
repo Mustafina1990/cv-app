@@ -94,9 +94,26 @@ p {
   margin-top: 3rem !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
+  h1,
+  h2 {
+    font-size: 36px;
+  }
+
   .col-sm-4 {
     flex: 0 0 auto;
     width: 33.3;
+  }
+
+  .hideSmallScreen {
+    display: none;
+  }
+
+  .navigation-links {
+    margin-bottom: 40px;
+  }
+
+  .centreText {
+    text-align: center !important;
   }
 }
