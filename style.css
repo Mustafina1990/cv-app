@@ -94,7 +94,7 @@ p {
   margin-top: 3rem !important;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 500px) {
   h1,
   h2 {
     font-size: 36px;
